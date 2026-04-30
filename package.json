@@ -11,14 +11,21 @@
     "api": "node ./server/api.cjs"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
     "axios": "^1.15.2",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
     "cors": "^2.8.6",
     "express": "^5.2.1",
+    "formik": "^2.4.9",
+    "moment": "^2.30.1",
     "mongodb": "^7.2.0",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-cookies": "^0.1.1",
+    "react-dom": "^19.2.5",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.14.2",
+    "yup": "^1.7.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
